@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Shabnam-FD;
+    src: url('assets/stylesheets/fonts/Farsi-Digits/Shabnam-FD.ttf');
+}
+
+body {
+    text-align: right;
+    font-family: 'Shabnam-FD', sans-serif;
+    background-color: #f5f5f5;
+}
+
+ul{
+    list-style: none;
+}
+
+h1{
+    margin: 15px;
+}
+
+#c-cart-items, .c-checkout-bill__summary {
+    background-color: white;
+    padding: 10px;
+}
+
+.c-cart-item {
+    border-top: 1px solid #eaeaea;
+}
+
+.c-cart-item:first-child {
+    border-top: none;
+}
+
+.c-cart-item__img {
+    width: 80%;
+}
+
+.img-col {
+    text-align: center;
+}
+
+.c-cart-item__title {
+    font-size: 1.143rem;
+    line-height: 1.375;
+    color: #3f3f3f;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    width: 100%;
+}
+
+.c-cart-item__product-data {
+    color: #777;
+    font-size: .857rem;
+    line-height: 1.833;
+    width: 100%;
+    text-align: right;
+    padding-right: 24px;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+.fa-shield-alt {
+    font-size: 1rem;
+}
+
+.c-quantity-selector {
+    margin: 24px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    /*color: #0fabc6;*/
+    font-size: 1.071rem;
+    line-height: 1.467;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-cart-item__discount {
+    width: 100%;
+    text-align: left;
+    font-size: .714rem;
+    line-height: 10px;
+    color: #ef394e;
+}
+
+.c-cart-item__product-price {
+    text-align: left;
+    color: #000;
+    font-size: 1.214rem;
+    line-height: 1.294;
+}
+
+.c-cart-item-price-div {
+    position: relative;
+    /*padding-top: 40px;*/
+    /*padding-left: 5px;*/
+}
+
+.item-prices {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.c-checkout-bill__summary {
+    list-style: none;
+    padding: 14px 12px 8px;
+}
+
+.c-checkout-bill__summary li {
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 0;
+    color: #777;
+}
+
+.c-checkout-bill__price--discount {
+    color: #ef394e;
+}
+
+#c-checkout-bill__total-price {
+    /*font-size: 14px;*/
+    font-size: 1rem;
+    color: black;
+    line-height: 1.571;
+}
+

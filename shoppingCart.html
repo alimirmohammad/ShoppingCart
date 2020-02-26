@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link href="shoppingCart.css" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="container-fluid">
+    <h1>سبد خرید</h1>
+    <div class="row" id="products">
+
+    </div>
+
+    <div class="row">
+        <div class="col-9 cart-items-div">
+            <div class="container-fluid">
+                <ul id="c-cart-items">
+
+                </ul>
+            </div>
+        </div>
+        <div class="col-3 checkout-div">
+            <div class="container-fluid">
+                <ul class="c-checkout-bill__summary">
+                    <li>
+                    <span class="c-checkout-bill__item-title">
+                            قیمت کالاها
+                        </span>
+                        <span class="c-checkout-bill__price">
+
+                        </span>
+                    </li>
+                    <li>
+                    <span class="c-checkout-bill__item-title">
+                                تخفیف کالاها
+                            </span>
+                        <span class="c-checkout-bill__price--discount">
+                        </span>
+                    </li>
+
+                    <li id="c-checkout-bill__total-price"><span class="c-checkout-bill__total-price--title">
+                            مبلغ قابل پرداخت
+                        </span><span class="c-checkout-bill__total-price--amount">
+                            ۹۸,۵۸۶,۰۰۰
+                            <span class="c-checkout-bill__total-price--currency">
+                                تومان
+                            </span></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="shoppingCart.js"></script>
+</body>
+</html>
